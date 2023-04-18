@@ -11,22 +11,12 @@
 		F52638461C72886F0068D21A /* SkyFloatingLabelTextFieldWithIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52638451C72886F0068D21A /* SkyFloatingLabelTextFieldWithIconTests.swift */; };
 		F56289231C3BE3A20082D9A6 /* SkyFloatingLabelTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56289181C3BE3A20082D9A6 /* SkyFloatingLabelTextField.framework */; };
 		F56289281C3BE3A20082D9A6 /* SkyFloatingLabelTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56289271C3BE3A20082D9A6 /* SkyFloatingLabelTextFieldTests.swift */; };
-		F58DFE6F1C91D2C40023AA0F /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6E1021C8604C2003D4DB9 /* SkyFloatingLabelTextField.swift */; };
-		F58DFE711C91D2C40023AA0F /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6E1041C8604C2003D4DB9 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		F58DFE721C91D2C40023AA0F /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6E1051C8604C2003D4DB9 /* UITextField+fixCaretPosition.swift */; };
 		F5B6E1061C8604C2003D4DB9 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6E1021C8604C2003D4DB9 /* SkyFloatingLabelTextField.swift */; };
 		F5B6E1081C8604C2003D4DB9 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6E1041C8604C2003D4DB9 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
 		F5B6E1091C8604C2003D4DB9 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6E1051C8604C2003D4DB9 /* UITextField+fixCaretPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C70C15F11E8C5E3F00E0673B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F562890F1C3BE3A10082D9A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F547D4AB1C3BEA8F0075A0C2;
-			remoteInfo = SkyFloatingLabelTextFieldExample;
-		};
 		F56289241C3BE3A20082D9A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F562890F1C3BE3A10082D9A6 /* Project object */;
@@ -39,7 +29,6 @@
 /* Begin PBXFileReference section */
 		C70C15EC1E8C433000E0673B /* SkyFloatingLabelTextFieldAppearanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldAppearanceTests.swift; sourceTree = "<group>"; };
 		F52638451C72886F0068D21A /* SkyFloatingLabelTextFieldWithIconTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIconTests.swift; sourceTree = "<group>"; };
-		F547D4AC1C3BEA8F0075A0C2 /* SkyFloatingLabelTextFieldExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyFloatingLabelTextFieldExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56289181C3BE3A20082D9A6 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F562891D1C3BE3A20082D9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F56289221C3BE3A20082D9A6 /* SkyFloatingLabelTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyFloatingLabelTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,13 +40,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F547D4A91C3BEA8F0075A0C2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F56289141C3BE3A20082D9A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,7 +75,6 @@
 			children = (
 				F56289181C3BE3A20082D9A6 /* SkyFloatingLabelTextField.framework */,
 				F56289221C3BE3A20082D9A6 /* SkyFloatingLabelTextFieldTests.xctest */,
-				F547D4AC1C3BEA8F0075A0C2 /* SkyFloatingLabelTextFieldExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,23 +114,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F547D4AB1C3BEA8F0075A0C2 /* SkyFloatingLabelTextFieldExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F547D4BD1C3BEA900075A0C2 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextFieldExample" */;
-			buildPhases = (
-				F547D4A81C3BEA8F0075A0C2 /* Sources */,
-				F547D4A91C3BEA8F0075A0C2 /* Frameworks */,
-				F547D4AA1C3BEA8F0075A0C2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SkyFloatingLabelTextFieldExample;
-			productName = SkyFloatingLabelTextFieldExample;
-			productReference = F547D4AC1C3BEA8F0075A0C2 /* SkyFloatingLabelTextFieldExample.app */;
-			productType = "com.apple.product-type.application";
-		};
 		F56289171C3BE3A20082D9A6 /* SkyFloatingLabelTextField */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F562892C1C3BE3A20082D9A6 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
@@ -181,7 +145,6 @@
 			);
 			dependencies = (
 				F56289251C3BE3A20082D9A6 /* PBXTargetDependency */,
-				C70C15F21E8C5E3F00E0673B /* PBXTargetDependency */,
 			);
 			name = SkyFloatingLabelTextFieldTests;
 			productName = SkyFloatingLabelTextFieldTests;
@@ -198,10 +161,6 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Skyscanner;
 				TargetAttributes = {
-					F547D4AB1C3BEA8F0075A0C2 = {
-						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 1020;
-					};
 					F56289171C3BE3A20082D9A6 = {
 						CreatedOnToolsVersion = 7.2;
 						LastSwiftMigration = 1020;
@@ -229,19 +188,11 @@
 			targets = (
 				F56289171C3BE3A20082D9A6 /* SkyFloatingLabelTextField */,
 				F56289211C3BE3A20082D9A6 /* SkyFloatingLabelTextFieldTests */,
-				F547D4AB1C3BEA8F0075A0C2 /* SkyFloatingLabelTextFieldExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F547D4AA1C3BEA8F0075A0C2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F56289161C3BE3A20082D9A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,16 +227,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F547D4A81C3BEA8F0075A0C2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F58DFE721C91D2C40023AA0F /* UITextField+fixCaretPosition.swift in Sources */,
-				F58DFE6F1C91D2C40023AA0F /* SkyFloatingLabelTextField.swift in Sources */,
-				F58DFE711C91D2C40023AA0F /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F56289131C3BE3A20082D9A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,11 +250,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C70C15F21E8C5E3F00E0673B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F547D4AB1C3BEA8F0075A0C2 /* SkyFloatingLabelTextFieldExample */;
-			targetProxy = C70C15F11E8C5E3F00E0673B /* PBXContainerItemProxy */;
-		};
 		F56289251C3BE3A20082D9A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F56289171C3BE3A20082D9A6 /* SkyFloatingLabelTextField */;
@@ -322,32 +258,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F547D4BB1C3BEA900075A0C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SkyFloatingLabelTextFieldExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.skyscanner.SkyFloatingLabelTextFieldExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		F547D4BC1C3BEA900075A0C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SkyFloatingLabelTextFieldExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.skyscanner.SkyFloatingLabelTextFieldExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		F562892A1C3BE3A20082D9A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -536,15 +446,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F547D4BD1C3BEA900075A0C2 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextFieldExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F547D4BB1C3BEA900075A0C2 /* Debug */,
-				F547D4BC1C3BEA900075A0C2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		F56289121C3BE3A10082D9A6 /* Build configuration list for PBXProject "SkyFloatingLabelTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
